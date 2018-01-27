@@ -1,3 +1,2 @@
 # autoupdatingiframe
-# 20180127
-# kyosuke owada
+# 20180127~

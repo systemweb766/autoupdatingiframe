@@ -3,20 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-  <div>
-    <iframe src="https://www.portal-tokyoport.jp/image.php?func=thumbnail&cameraid=1&id=1&w=640&h=480" width="500" height="600"></iframe>
-    <iframe src="https://www.portal-tokyoport.jp/image.php?func=thumbnail&cameraid=1&id=2&w=640&h=480" width="500" height="600"></iframe>
-    <iframe src="https://www.portal-tokyoport.jp/image.php?func=thumbnail&cameraid=1&id=3&w=640&h=480" width="500" height="600"></iframe>
-    <iframe src="https://www.portal-tokyoport.jp/image.php?func=thumbnail&cameraid=1&id=4&w=640&h=480" width="500" height="600"></iframe>
-    <iframe src="https://www.portal-tokyoport.jp/image.php?func=thumbnail&cameraid=1&id=5&w=640&h=480" width="500" height="600"></iframe>
-    <iframe src="https://www.portal-tokyoport.jp/image.php?func=thumbnail&cameraid=1&id=6&w=640&h=480" width="500" height="600"></iframe>
-    <iframe src="https://www.portal-tokyoport.jp/image.php?func=thumbnail&cameraid=1&id=7&w=640&h=480" width="500" height="600"></iframe>
+  <div class="container col-12">
+  <div class="alert alert-success">
+  <h2 class="alert-heading p-3 mb-2">レスポンシブ対応用作業画面</h2>
+  <p class="alert-body p-3 mb-2" style="height:80px;">
+    複数画面、youtube見ながら優雅に画面幅対応して作業していきましょう。自動更新します。
+  </p>
+</div>
+
+  <div class="row p-3 mb-2">
+    <div class="col-4 embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="http://deepdrilledwell.secret.jp/ddw/about/"></iframe>
+    </div>
+    <div class="col-4 embed-responsive embed-responsive-21by9">
+      <iframe class="embed-responsive-item" src="http://deepdrilledwell.secret.jp/ddw/blog/"></iframe>
+    </div>
+    <div class="col-4 embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="http://deepdrilledwell.secret.jp/ddw/contact/"></iframe>
+    </div>
+    <div class="col-12 embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="http://deepdrilledwell.secret.jp/ddw/"></iframe>
+    </div>
+    <div class="col-4 embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="http://deepdrilledwell.secret.jp/ddw/portfolio/"></iframe>
+    </div>
+    <div class="col-8 embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="650" height="366" src="https://www.youtube.com/embed/yDJb4ws-eYg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
   </div>
   <script src="./js/main.js" type="text/javascript"></script>
   <script type="text/javascript">
-    window.onload = countup();
+    window.onload = countup(0,0,6);
   </script>
 </body>
 </html>
